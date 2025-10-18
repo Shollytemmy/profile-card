@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" class="profile-card">
+        <div class="top-section">
+          <figure class="avatar-container">
+            <img
+              src="https://i.postimg.cc/W3nMn4Cj/IMG-20210601-144720-3.jpg"
+              alt="User avatar"
+              data-testid="test-user-avatar"
+              class="avatar"
+            />
+          </figure>
+
+          <div class="info">
+            <header>
+              <h2 data-testid="test-user-name">Bunyameen Nurudeen</h2>
+            </header>
+
+            <p data-testid="test-user-bio" class="bio">
+              A passionate frontend developer and educator who loves bringing
+              ideas to life with clean code and elegant design.
+            </p>
+
+            <p class="time">
+              Current time (ms):
+              <span data-testid="test-user-time" id="current-time"></span>
+            </p>
+
+            <nav data-testid="test-user-social-links" class="social-links">
+              <ul>
+                <li>
+                  <a
+                    href="https://twitter.com/AbooJs_"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid="test-user-social-twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Shollytemmy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid="test-user-social-github"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="bottom-section">
+          <section class="list-section">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Reading tech blogs</li>
+              <li>Designing</li>
+            </ul>
+          </section>
+
+          <section class="list-section">
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Procrastination</li>
+              <li>Bugs</li>
+              <li>Messy code</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
