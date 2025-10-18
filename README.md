@@ -31,7 +31,7 @@ Every visible element includes the required `data-testid` attributes for automat
 
  **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/frontend-wizards-stage0-profile-card.git
+   git clone https://github.com/Shollytemmy/profile-card
 
 cd profile-card-level0
 
