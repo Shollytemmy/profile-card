@@ -6,7 +6,7 @@ Every visible element includes the required `data-testid` attributes for automat
 ---
 
 ## 🚀 Live Demo
-[View Live Demo on GitHub Pages]()
+[View Live Demo on GitHub Pages](https://bunyameen-profile-card.netlify.app/)
 
 ---
 
